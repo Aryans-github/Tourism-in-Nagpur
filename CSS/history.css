@@ -1,0 +1,103 @@
+History page CSS
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  display: flex;             
+  flex-direction: column;    
+  min-height: 100vh;         
+  margin: 0;     
+  background: rgb(247, 249, 250);            
+}
+main{
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    color: orangered;
+    padding-left: 30px;
+}
+.navbar {
+    background: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks {
+    font-size: 19px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.navlinks a{
+     text-decoration: none;
+}
+#h2{
+    text-align: center;
+    color: rgb(68, 56, 201);
+    padding: 34px;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+#div1,#div2,#div3,#div4{
+    padding: 10px;
+    height: 300px;
+    width: 55%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  rgb(79, 78, 78);
+    
+}
+
+
+#button{
+    background: orangered;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 20px;
+    border-style: none;
+    text-decoration: none;
+    width: 190px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+
+footer {
+  background: #d3d3d3; 
+  width: 100%;
+  padding-bottom: 5px; 
+}
+footer h4 {
+  
+  margin-top: 0;      
+  margin-bottom: 0;          
+  height: 40px;
+  padding-top: 12px;
+  text-align: center; 
+  font-weight: 500;   
+}
