@@ -1,0 +1,107 @@
+Trip page CSS
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  display: flex;             
+  flex-direction: column;    
+  min-height: 100vh;         
+  margin: 0;     
+  background: rgb(247, 249, 250);             
+}
+main{
+    
+    flex-grow: 1;
+}
+
+.navbar {
+    background: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: orangered;
+    padding-left: 30px;
+}
+
+.navlinks {
+    font-size: 19px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.navlinks a{
+     text-decoration: none;
+}
+
+#h2{
+    text-align: center;
+    color: rgb(68, 56, 201);
+    padding: 34px;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.formbody {
+    background: bisque;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.boxes{
+    border-radius: 8px;
+    height: 32px;
+}
+
+#name,#email,#places_of_interest{
+    padding: 0px 8px;
+    border-style: none;
+}
+
+#button{
+    height: 45px;
+    background: rgb(251, 80, 17);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-style: none;
+}
+footer {
+  background: #d3d3d3; 
+  width: 100%;
+  padding-bottom: 5px; 
+}
+footer h4 {
+  
+  margin-top: 0;      
+  margin-bottom: 0;          
+  height: 40px;
+  padding-top: 12px;
+  text-align: center; 
+  font-weight: 500;   
+}
