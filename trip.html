@@ -1,36 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="trip.css" />
+  </head>
+  <body>
     <header>
-        <h1>Tourism in <span class="text-3xl" role="img" aria-label="Orange">🍊</span> City - Nagpur  </h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="Nature.html">Nature and Lakes</a></li>
-            <li><a href="trip.html">Plan Your Trip</a></li>
+      <nav class="navbar">
+        <div>
+          <h1>
+            Tourism in
+            <span class="text-3xl" role="img" aria-label="Orange">🍊</span> City
+            - Nagpur
+          </h1>
+        </div>
+
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="Nature.html">Nature and Lakes</a></li>
+          <li><a href="trip.html">Plan Your Trip</a></li>
         </ul>
+      </nav>
     </header>
     <main>
-        <h2>Plan Your Nagpur Getaway</h2>
-        <form>
-            <p>Let us help you plan the perfect trip! Submit your details and preferred sites.</p>
-            <label for="name">Your Name</label><br> 
-            <input type="text" id="name" name="Name"><br>
-            <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="places_of_interest">Places of Ineterest</label> <br>
-            <textarea name="places_of_interest" id="places_of_interest" placeholder="e.g., Sitabuldi Fort, Futala Lake, Pench WIldlife Safari"></textarea><br>
-            <button onclick="submit">Get Custom Itinerary</button>
-
+      <b><h2 id="h2">Plan Your Nagpur Getaway</h2></b>
+      <div class="formbody">
+        <form class="form">
+          <p style="text-align: center; padding: 10px 0px;font-size: 16px;color: rgb(91, 89, 89);">
+            Let us help you plan the perfect trip! Submit your details and
+            preferred sites.
+          </p>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="Name" class="boxes"/><br />
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="boxes" /><br />
+          <label for="places_of_interest">Places of Ineterest</label> 
+          <textarea
+            name="places_of_interest"
+            id="places_of_interest" class="boxes" 
+            placeholder=" e.g., Sitabuldi Fort, Futala Lake, etc."
+            style="height: 80px;"
+          ></textarea
+          ><br />
+          <button onclick="submit" class="boxes" id="button">Request Itinerary</button>
         </form>
+      </div>
     </main>
     <footer>
-        <h4> &copy; 2025 Nagpur Tourism Guide | Experience the Orange City </h4>
+      <h4>&copy; 2025 Nagpur Tourism Guide | Experience the Orange City</h4>
     </footer>
-</body>
+  </body>
 </html>
